@@ -118,7 +118,43 @@ def apply_heading_style(filename):
     # os.system(f'start {out_file_path}')
 
 
+import word_util
 from docx.shared import Pt
+from docx.enum.style import WD_STYLE
+
+from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
+
+def check_pic_add_number(para,chapter_num,pic_count):
+    # 判断段落中是否有图片
+    for run in para.runs:
+        if run._element.tag.endswith('}r'):
+            # print("r")
+            for elem in run._element:
+                # print(elem.tag)
+                # if elem.tag.endswith('}pict'):
+                if  'pict' in elem.tag or 'drawing' in elem.tag:
+                    # print("pic")
+                    pic_count += 1
+                    # 在段落下面插入一个新段落
+                    # new_para = para.insert_paragraph_after('')
+                    # 图片 居中
+                    para.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER 
+                    new_para =word_util.insert_paragraph_after(para,'')
+                    # new_para =insert_paragraph_after(para,'')
+                    # 在新段落中插入自动编号的标签
+                    # new_para.add_run 居中
+                    pic_run=f"图{chapter_num}.{pic_count}"
+                    new_para.add_run(pic_run)
+                    # pic_caption_run=new_para.add_run('图{}.{}'.format(pic_count // 10 + 1, pic_count % 10 + 1))
+                    # pic_caption_run.alignment = WD_PARAGRAPH_ALIGNMENT.JUSTIFY  # 两端对齐
+                    # pic_caption_run.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER  # 居中对齐
+                    new_para.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER  # 居中对齐
+                    # ————————————————
+                    # 版权声明：本文为CSDN博主「Jonathan Star」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+                    # 原文链接：https://blog.csdn.net/jonathan_joestar/article/details/129954680
+                    # return True
+                    # return pic_count
+    return pic_count
 
 def apply_heading_style_by_Heading(filename):
     """如果已经是以前面的号码开头了，就没必要在前面加了
@@ -129,6 +165,8 @@ def apply_heading_style_by_Heading(filename):
     """
     # 创建Document对象
     doc = docx.Document(filename)
+    pic_count=0
+    
 
     # 初始化章节计数器和小节计数器
     chapter_num = 0
@@ -139,8 +177,14 @@ def apply_heading_style_by_Heading(filename):
         # 获取当前段落的样式
         style = para.style.name
         text = para.text
-        
+        # # 判断段落中是否有图片
+        # for run in para.runs:
+        #     if run._element.tag.endswith('}r'):
+        #         for elem in run._element:
+        #             if elem.tag.endswith('}pict'):
+        pic_count=check_pic_add_number(para,chapter_num,pic_count)
         # 如果样式是标题，修改样式并设置内容
+        
         if 'Heading' in style:
             level = int(style[-1])
             if level == 1:
@@ -151,6 +195,7 @@ def apply_heading_style_by_Heading(filename):
                 # if  text.startswith(f"{chapter_num}.{section_num}"):
                 #     continue
                 section_subnum=0
+                pic_count=0
                 para.style.font.name = '宋体'
                 para.style.font.size = Pt(22)
             elif level == 2:
@@ -189,7 +234,10 @@ def apply_heading_style_by_Heading(filename):
     doc.save(out_file_path)
     os.system(f'start {out_file_path}')
 
-doc_file=rf"D:\毕设\毕业设计-starp-考试 (修复的).docx"
+# doc_file=rf"D:\毕设\毕业设计-starp-考试 (修复的).docx"
+doc_file=rf"D:\毕设\毕业设计-缪奇鹏-考试 (修复的).docx"
+# start "D:\毕设\毕业设计-缪奇鹏-考试 (修复的).docx"
+
 # doc_file=rf"D:\毕设\毕业设计-starp-考试 (修复的).doc"
 apply_heading_style_by_Heading(doc_file)
 

@@ -1,7 +1,8 @@
 import docx
 
 # 打开Word文档
-input_docx_path=rf"D:\毕业设计-starp-考试.docx"
+# input_docx_path=rf"D:\毕业设计-starp-考试.docx"
+input_docx_path=rf"D:\毕设\毕业设计-缪奇鹏-考试 (修复的).docx"
 # doc = docx.Document(rf'D:\毕设\毕业设计-starp-考试.doc')
 doc = docx.Document(input_docx_path)
 
@@ -56,7 +57,9 @@ for para in doc.paragraphs:
     for run in para.runs:
         if run._element.tag.endswith('}r'):
             for elem in run._element:
-                if elem.tag.endswith('}pict'):
+                # if elem.tag.endswith('}pict'):
+                # print(elem.tag)
+                if    'pict' in elem.tag or 'drawing' in elem.tag:
                     # # 获取图片对象
                     # inline_shape = run.inline_shapes[0]
                     # # 设置图片对象的对齐方式为居中对齐
@@ -70,7 +73,7 @@ for para in doc.paragraphs:
                     # # 重新设置图片的xml代码
                     # inline_shape._inline.graphic.graphicData.pic._pic.clear()
                     # inline_shape._inline.graphic.graphicData.pic._pic._element.xml = xml
-                    pic_center_set_up(run=run,para=para)
+                    # pic_center_set_up(run=run,para=para)
                     pic_count += 1
                     # 在段落下面插入一个新段落
                     # new_para = para.insert_paragraph_after('')
