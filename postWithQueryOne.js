@@ -1,0 +1,1 @@
+#postName#: (query, data) => postWithQuery(`${apiPreffix}/#postName#`, query, data),

@@ -1,0 +1,89 @@
+##定义初始变量
+## #set($tableName = $tool.append($tableInfo.name, "JpaController"))
+#set($tableName = $tool.append($tableInfo.name, "Controller"))
+##设置回调
+$!callback.setFileName($tool.append($tableName, ".java"))
+## $!callback.setSavePath($tool.append($tableInfo.savePath, "/controller/jpa"))
+$!callback.setSavePath($tool.append($tableInfo.savePath, "/controller"))
+##拿到主键
+#if(!$tableInfo.pkColumn.isEmpty())
+    #set($pk = $tableInfo.pkColumn.get(0))
+#end
+
+#if($tableInfo.savePackageName)package $!{tableInfo.savePackageName}.#{end}controller;
+## import $!{tableInfo.savePackageName}.util.ReturnT;
+import $!{tableInfo.savePackageName}.domain.$!{tableInfo.name};
+import $!{tableInfo.savePackageName}.service.$!{tableInfo.name}Service;
+import org.springframework.web.bind.annotation.*;
+import java.util.List;
+import javax.annotation.Resource;
+
+/**
+* $!{tableInfo.comment}($!{tableInfo.name})表控制层
+*
+* @author $!author
+* @since $!time.currTime()
+*/
+## package com.mindskip.xzs.controller.admin;
+
+
+import com.mindskip.xzs.base.BaseApiController;
+import com.mindskip.xzs.base.RestResponse;
+import com.mindskip.xzs.domain.$!{tableInfo.name};
+import com.mindskip.xzs.service.$!{tableInfo.name}Service;
+import com.mindskip.xzs.utility.PageInfoHelper;
+
+import com.github.pagehelper.PageInfo;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
+import java.util.List;
+
+@RestController("$!{tableName}")
+@RequestMapping(value = "/api/$!{tool.firstLowerCase($!{tableInfo.name})}")
+public class $!{tableName} extends BaseApiController {
+
+    private final $!{tableInfo.name}Service $!{tool.firstLowerCase($!{tableInfo.name})}Service;
+
+    @Autowired
+    public $!{tableName}($!{tableInfo.name}Service $!{tool.firstLowerCase($!{tableInfo.name})}Service) {
+        this.$!{tool.firstLowerCase($!{tableInfo.name})}Service = $!{tool.firstLowerCase($!{tableInfo.name})}Service;
+    }
+
+    @RequestMapping(value = "/$!{tool.firstLowerCase($!{tableInfo.name})}/list", method = RequestMethod.POST)
+    public RestResponse<List<$!{tableInfo.name}>> list() {
+    List<$!{tableInfo.name}> list = $!{tool.firstLowerCase($!{tableInfo.name})}Service.list();
+        return RestResponse.ok(list);
+    }
+
+
+    @RequestMapping(value = "/$!{tool.firstLowerCase($!{tableInfo.name})}/edit", method = RequestMethod.POST)
+    public RestResponse edit(@RequestBody @Valid $!{tableInfo.name} model) {
+        $!{tableInfo.name} $!{tool.firstLowerCase($!{tableInfo.name})} = modelMapper.map(model, $!{tableInfo.name}.class);
+        if (model.getId() == null) {
+           // $!{tool.firstLowerCase($!{tableInfo.name})}.setDeleted(false);
+            $!{tool.firstLowerCase($!{tableInfo.name})}Service.insertByFilter($!{tool.firstLowerCase($!{tableInfo.name})});
+        } else {
+            $!{tool.firstLowerCase($!{tableInfo.name})}Service.updateByIdFilter($!{tool.firstLowerCase($!{tableInfo.name})});
+        }
+        return RestResponse.ok();
+    }
+
+    @RequestMapping(value = "/$!{tool.firstLowerCase($!{tableInfo.name})}/select/{id}", method = RequestMethod.POST)
+    public RestResponse<$!{tableInfo.name}> select(@PathVariable Integer id) {
+        $!{tableInfo.name} $!{tool.firstLowerCase($!{tableInfo.name})} = $!{tool.firstLowerCase($!{tableInfo.name})}Service.selectById(id);
+        return RestResponse.ok($!{tool.firstLowerCase($!{tableInfo.name})});
+    }
+
+   
+
+
+    @RequestMapping(value = "/$!{tool.firstLowerCase($!{tableInfo.name})}/delete/{id}", method = RequestMethod.POST)
+    public RestResponse delete(@PathVariable Integer id) {
+        $!{tableInfo.name} $!{tool.firstLowerCase($!{tableInfo.name})} = $!{tool.firstLowerCase($!{tableInfo.name})}Service.selectById(id);
+       
+        $!{tool.firstLowerCase($!{tableInfo.name})}Service.updateByIdFilter($!{tool.firstLowerCase($!{tableInfo.name})});
+        return RestResponse.ok();
+    }
+}

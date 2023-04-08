@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>打印demo</title>
+	</head>
+	<body>
+		<div id="page">
+		  导出的内容
+          <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sample HTML Paper</title>
+</head>
+<body>
+	<header>
+		<h1>Sample HTML Paper</h1>
+		<h2>Author Name</h2>
+		<h3>Department, University</h3>
+		<h4>Email: author@example.com</h4>
+	</header>
+
+	<main>
+		<section>
+			<h2>Abstract</h2>
+			<p>This is the abstract of the paper.</p>
+		</section>
+
+		<section>
+			<h2>Introduction</h2>
+			<p>This is the introduction of the paper.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent malesuada, mauris a ullamcorper ullamcorper, mauris lorem semper ipsum, nec laoreet lorem nibh vitae metus. Nulla facilisi. Sed posuere, felis sed volutpat consequat, massa ipsum malesuada magna, nec faucibus mauris metus vitae tortor. Quisque semper lacinia quam ac sagittis. Pellentesque suscipit quam vel ex dictum malesuada. Sed nec enim in justo ullamcorper varius. Nunc scelerisque blandit facilisis. Donec ac est sodales, tincidunt enim nec, bibendum quam. Donec pharetra erat ac orci sagittis vestibulum. Etiam eget quam vel felis malesuada pharetra. Nulla facilisi. Mauris ultrices commodo ligula, vel malesuada augue dignissim ac.</p>
+			<p>Phasellus euismod, justo vel laoreet gravida, urna dolor facilisis enim, vel malesuada ante libero vel est. Morbi gravida augue id dolor consectetur tincidunt. Integer viverra euismod risus, at finibus enim auctor nec. Ut sit amet libero euismod, auctor tortor eget, fringilla risus. In in metus at massa elementum efficitur. Suspendisse pretium, metus sit amet pretium molestie, lectus orci iaculis turpis, sit amet elementum risus augue vel tellus. In maximus aliquam nisl, vel pharetra justo accumsan in. Vivamus id lectus turpis. Ut et bibendum dolor. Fusce quis nibh eu dolor volutpat malesuada. Curabitur ut blandit turpis. Etiam eleifend bibendum neque, ut vehicula erat tincidunt non. Etiam convallis lorem ut dolor interdum egestas. </p>
+		</section>
+
+		<section>
+			<h2>Methods</h2>
+			<p>This section describes the methods used in the research.</p>
+			<ul>
+				<li>Method 1</li>
+				<li>Method 2</li>
+				<li>Method 3</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Results</h2>
+			<p>This section presents the results of the research.</p>
+			<table>
+				<tr>
+					<th>Condition</th>
+					<th>Result</th>
+				</tr>
+				<tr>
+				</table>	
+            </section>
+		</div>
+		<a class="page-btn" href="javascript:void(0)"> 导出 </a>
+	</body>
+</html>
+
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+<!-- <script src="js/FileSaver.js"></script> -->
+<script src="js/FileSaver.min.js"></script>
+
+<script src="js/jquery.wordexport.js"></script>
+<script type="text/javascript">
+ jQuery(document).ready(function($) {
+		$("a.page-btn").click(function(event) {
+			$("#page").wordExport();
+		});
+ });
+</script>

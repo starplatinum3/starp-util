@@ -1,0 +1,17 @@
+##定义初始变量
+#set($tableName = $tool.append($tableInfo.name, "Service"))
+##设置回调
+$!callback.setFileName($tool.append($tableName, ".java"))
+$!callback.setSavePath($tool.append($tableInfo.savePath, "/service"))
+#if($tableInfo.savePackageName)package $!{tableInfo.savePackageName}.#{end}service;
+
+import com.mindskip.xzs.viewmodel.student.exam.ExamPaperSubmitVM;
+## import com.mindskip.xzs.viewmodel.student.exampaper.$!{tableInfo.name}PageVM;
+import com.github.pagehelper.PageInfo;
+import $!{tableInfo.savePackageName}.domain.$!{tableInfo.name};
+
+import java.util.List;
+
+public interface $!{tableInfo.name}Service extends BaseService<$!{tableInfo.name}> {
+List<$!{tableInfo.name}>list();
+}

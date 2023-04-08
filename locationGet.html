@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        How to get the name of a
+        file using JavaScript
+    </title>
+
+    <style>
+        body {
+            text-align: center;
+        }
+        h1 {
+            color: green;
+        }
+        #geeks {
+            font-size: 26px;
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>GeeksforGeeks</h1>
+
+    <p>
+        Click on the button to get
+        the name of the file.
+    </p>
+
+    <button onclick="GFG_Fun();">
+        click here
+    </button>
+
+    <p id="geeks"></p>
+
+    <script>
+        var down = document.getElementById('geeks');
+
+        function GFG_Fun() {
+            var path = window.location.pathname;
+            down.innerHTML = path.split("/").pop();
+        }
+    </script>
+</body>
+
+</html>

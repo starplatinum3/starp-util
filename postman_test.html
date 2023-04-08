@@ -1,0 +1,340 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="renderer" content="webkit" />
+  <meta name="force-rendering" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+
+
+</head>
+
+<body>
+
+  <!-- <button  onclick="mongoFindAll">mongoFindAll</button> -->
+  <!-- <button  click="mongoFindAll()">mongoFindAll</button> -->
+  <button  onclick="mongoFindAll()">mongoFindAll</button>
+  
+  <button  onclick="pageListByUserId()">pageListByUserId</button>
+
+  <script>
+    // import requests
+    // # baseUrl='http://localhost:8004/api'
+    baseUrl = 'http://localhost:8003/api'
+    entityName = 'eyesightRes'
+    // # path='EyesightResListGetCreateTime'
+    path = 'EyesightResListGetCreateTimeEyesightRes'
+    // path = 'save'
+    let dateList = [
+      "2022-02-23 13:13:08",
+      "2022-03-23 13:11:55",
+      "2022-04-23 13:13:23",
+      "2022-05-04 12:57:43",
+      "2022-05-19 13:03:10",
+      "2022-06-23 13:11:31",
+      "2022-06-23 13:12:26",
+      "2022-08-23 13:13:39",
+      "2022-10-01 13:00:57",
+      "2022-12-23 13:12:10",
+      "2023-03-02 12:57:14",
+      "2023-03-30 13:10:53",
+      "2023-05-23 13:04:55",
+      "2023-05-23 13:06:37",
+      "2023-06-22 13:11:05"
+    ]
+    // save
+    left_eye = 5.0
+    right_eye = 5.0
+    user_name = "starp"
+    // fetch()
+
+    // Example POST method implementation:
+    async function postData(url = '', data = {}) {
+      // Default options are marked with *
+      const response = await fetch(url, {
+        method: 'POST', // *GET, POST, PUT, DELETE, etc.
+        mode: 'cors', // no-cors, *cors, same-origin
+        cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+        credentials: 'same-origin', // include, *same-origin, omit
+        headers: {
+          'Content-Type': 'application/json'
+          // 'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        redirect: 'follow', // manual, *follow, error
+        referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+        body: JSON.stringify(data) // body data type must match "Content-Type" header
+      });
+      return response.json(); // parses JSON response into native JavaScript objects
+    }
+
+    function addDateZero(num) {
+      return (num < 10 ? '0' + num : num)
+    }
+    // 日期必须是 符合格式的 但是金数据填表的就不是正常数据啊
+    function formatDateTime(date) {
+      if (!!date) {
+        const d = new Date(date);
+        return d.getFullYear() + '-' + addDateZero(d.getMonth() + 1) + '-' + addDateZero(d.getDate()) + ' ' +
+          addDateZero(d.getHours()) + ':' + addDateZero(d.getMinutes()) + ':' + addDateZero(d.getSeconds());
+      } else {
+        return '';
+      }
+    }
+
+    // postData('https://example.com/answer', { answer: 42 })
+    //   .then(data => {
+    //     console.log(data); // JSON data parsed by `data.json()` call
+    //   });
+
+    // function changeDate(records) {
+    //   // DateUtil
+    //   // TimeUtil
+    //   // DateUtil
+    //   let res=[]
+    //   for (let o of records) {
+    //     // DateUtil.
+    //     // formatDateTime
+    //     res.push(
+    //       formatDateTime(o)
+    //     )
+    //     // o.createTimeStr = formatDateTime(o);
+
+    //     // o.createTimeStr = formatDateTime(o.createTime);
+    //     // o.createTime = this.$moment(o.createTime).format('YYYY-MM-DD HH:mm:ss')
+    //   }
+    //   return res
+    // },
+
+    function doSave(dataPost) {
+      // let  dataPost= {  
+      //    "createTime":null ,
+      //    "createUserId":null ,
+      //    "departId":null ,
+      //    "departName":null ,
+      //    "deviceId":null ,
+      //    "deviceName":null ,
+      //    "enableMark":null ,
+      //    "id":null ,
+      //    "isDeleted":null ,
+      //    "leftEyesight":null ,
+      //    "memo":null ,
+      //    "rightEyesight":null ,
+      //    "testTime":null ,
+      //    "updateTime":null ,
+      //    "updateUserId":null ,
+      //    "userCode":null ,
+      //    "userId":null ,
+      //    "userName":null ,
+      //    "userSex":null 
+      //             }
+
+
+      postData(`${baseUrl}/${entityName}/save`, dataPost)
+        .then(data => {
+          console.log("save done");
+          console.log(data); // JSON data parsed by `data.json()` call
+          // formatDateTime
+
+          // data = data.response
+          // data.sort((a, b) => a - b)
+          // let dates = data.map(o => {
+          //   return formatDateTime(o);
+          // })
+
+          // console.log(dates)
+        });
+    }
+
+    function saveDatesEye(dateList) {
+      for (let date of dateList) {
+        let dataPost = {
+          "createTime": date,
+          "createUserId": null,
+          "departId": null,
+          "departName": null,
+          "deviceId": null,
+          "deviceName": null,
+          "enableMark": null,
+          "id": null,
+          "isDeleted": null,
+          "leftEyesight": left_eye,
+          "memo": null,
+          "rightEyesight": right_eye,
+          "testTime": null,
+          "updateTime": null,
+          "updateUserId": null,
+          "userCode": 1,
+          "userId": null,
+          "userName": user_name,
+          "userSex": null
+        }
+
+        doSave(dataPost)
+      }
+
+    }
+
+
+
+    function doPath() {
+
+      postData(`${baseUrl}/${entityName}/${path}`, {
+          answer: 42
+        })
+        .then(data => {
+          console.log(data); // JSON data parsed by `data.json()` call
+          // formatDateTime
+
+          data = data.response
+          data.sort((a, b) => a - b)
+          // saveDatesEye(data)
+          let datesToSave = data.map(o => {
+            return new Date(o);
+          })
+          console.log('datesToSave')
+          console.log(datesToSave)
+          saveDatesEye(datesToSave)
+          let dates = data.map(o => {
+            return formatDateTime(o);
+          })
+          console.log('dates')
+
+          console.log(dates)
+        });
+    }
+
+
+    function JobLinkGetByIdxIdx1() {
+
+      //       {
+      //     "code": 2,
+      //     "message": "失败 Query failed with error code 13 and error message 'command find requires authentication' on server localhost:27017;
+      //  nested exception is com.mongodb.MongoQueryException: 
+      // Query failed with error code 13 and error message 'command find requires authentication' on server
+      //  localhost:27017",
+      //     "response": null
+      // }
+
+      // {
+      //     "code": 2,
+      //     "message": "失败 Exception authenticating MongoCredential{mechanism=SCRAM-SHA-256, userName='root', source='admin', password=<hidden>, mechanismProperties={}}; nested exception is com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-256, userName='root', source='admin', password=<hidden>, mechanismProperties={}}",
+      //     "response": null
+      // }
+      postData(`http://43.142.150.223:8003/api/all/JobLinkGetByIdx`, {
+          idx: 1
+        })
+        .then(data => {
+          console.log(data);
+        })
+    }
+
+    // http://localhost:8080/api/all/mongo/findAll
+
+    function JobLinkGetByIdxMysql() {
+      // @RequestMapping("/api/jobLink")
+
+      postData(`http://43.142.150.223:8003/api/jobLink/getByIdx`, {
+          idx: 1
+        })
+        .then(data => {
+          console.log(data);
+        })
+    }
+
+    // saveAllLinks
+
+    // JobLinkGetByIdxIdx1()
+    // JobLinkGetByIdxMysql()
+
+    // postData(`http://localhost:8003/api/jobLink/saveAllLinks`, {
+    //     idx: 1
+    //   })
+    //   .then(data => {
+    //     console.log(data);
+    //   })
+
+
+    // , { idx: 1 }
+
+    // getda 
+
+    // fetch get  写一个 
+    // fetch(`http://localhost:8003/api/all/mongo/findAll`)
+    //   .then(data => {
+    //     console.log(data);
+    //   })
+
+    function mongoFindAll(){
+
+      console.log("mongoFindAll");
+        //fetch请求
+        fetch(`http://localhost:8003/api/all/mongo/findAll`,{
+            method: 'GET',
+        })
+            .then((response) => response.json())
+            .then((json) => {
+                console.log("戴假发"+JSON.stringify(json));
+                // this.setState({ discounts: json.data })
+            })
+            .catch((error) => {
+                alert(error)
+            })
+// ————————————————
+// 版权声明：本文为CSDN博主「Smile凌烟阁」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+// 原文链接：https://blog.csdn.net/churk123/article/details/72928844
+
+             
+    }
+
+    function pageListByUserId(){
+      // /api/all/pageListByUserId
+      // let      baseUrl = 'http://localhost:8003/api'
+      // let userId=1
+      // let userId=2
+      let userId=null // 查询所有  
+     
+//       let postForm={
+//   "subjectId":null,
+//   "createUser": userId,
+//   "pageIndex": 0,
+//   "pageSize": 10
+// }
+
+// let postForm={
+//   "subjectId":null,
+//   "createUser": userId,
+//   "pageIndex": 4,
+//   "pageSize": 10
+// }
+
+let paperName=null
+// let paperName='期末考试'
+
+// 期末考试
+let postForm={
+  "subjectId":null,
+  "createUser": userId,
+  "paperName": paperName,
+  "pageIndex": 0,
+  "pageSize": 10
+}
+      postData(`http://43.142.150.223:8003/api/all/pageListByUserId`,postForm).then(res=>{
+        console.log(res);
+      })
+    }
+
+
+
+    // JobLinkGetByIdx
+
+    // let data = await postData(`${baseUrl}/${entityName}/${path}`, {
+    //   answer: 42
+    // })
+    // console.log(data);
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+D:/home/pi/writer/log
+
+D:\home\pi\writer\log
+
+JavaScript
+
+TypeScript
+TypeScript
+be
+
+beau
+
+beautiful
+ja
+JavaScript
+j\
+
+JavaScript
+JavaScript
+ava
+
+beau
+be
+
+be
+
+ja
+
+  textDocument: { uri: 'file:///d%3A/proj/python/my_util_py_pub/testFan.txt' },
+_textDocumentPosition
+{
+  textDocument: { uri: 'file:///d%3A/proj/python/my_util_py_pub/testFan.txt' },
+  position: { line: 26, character: 1 },
+  context: { triggerKind: 1 }
+}

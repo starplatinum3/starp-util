@@ -1,0 +1,68 @@
+
+##定义初始变量
+#set($tableName = $tool.append($tableInfo.name, "ServiceImpl"))
+##设置回调
+$!callback.setFileName($tool.append($tableName, ".java"))
+$!callback.setSavePath($tool.append($tableInfo.savePath, "/service/impl"))
+
+##拿到主键
+#if(!$tableInfo.pkColumn.isEmpty())
+    #set($pk = $tableInfo.pkColumn.get(0))
+#end
+
+#if($tableInfo.savePackageName)package $!{tableInfo.savePackageName}.#{end}service.impl;
+
+import $!{tableInfo.savePackageName}.domain.$!{tableInfo.name};
+## import $!{tableInfo.savePackageName}.dao.$!{tableInfo.name}Dao;
+import $!{tableInfo.savePackageName}.repository.$!{tableInfo.name}Mapper;
+import $!{tableInfo.savePackageName}.service.$!{tableInfo.name}Service;
+
+
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class $!{tableInfo.name}ServiceImpl extends BaseServiceImpl<$!{tableInfo.name}> implements $!{tableInfo.name}Service {
+
+    private final static String CACHE_NAME = "exam:$!{tool.firstLowerCase($!{tableInfo.name})}";
+    private final $!{tableInfo.name}Mapper $!{tool.firstLowerCase($!{tableInfo.name})}Mapper;
+
+    @Autowired
+    public $!{tableInfo.name}ServiceImpl($!{tableInfo.name}Mapper $!{tool.firstLowerCase($!{tableInfo.name})}Mapper) {
+        super($!{tool.firstLowerCase($!{tableInfo.name})}Mapper);
+        this.$!{tool.firstLowerCase($!{tableInfo.name})}Mapper = $!{tool.firstLowerCase($!{tableInfo.name})}Mapper;
+    }
+
+    @Override
+    @Cacheable(value = CACHE_NAME, key = "#id", unless = "#result == null")
+    public $!{tableInfo.name} selectById(Integer id) {
+        return super.selectById(id);
+    }
+
+    @Override
+    @CacheEvict(value = CACHE_NAME, key = "#record.id")
+    public int updateByIdFilter($!{tableInfo.name} record) {
+        return super.updateByIdFilter(record);
+    }
+
+  
+
+    @Override
+    public PageInfo<$!{tableInfo.name}> page($!{tableInfo.name}PageRequestVM requestVM) {
+        return PageHelper.startPage(requestVM.getPageIndex(), requestVM.getPageSize(), "id desc").doSelectPageInfo(() ->
+                $!{tool.firstLowerCase($!{tableInfo.name})}Mapper.page(requestVM)
+        );
+    }
+
+        @Override
+    public List<$!{tableInfo.name}> list() {
+        return $!{tool.firstLowerCase($!{tableInfo.name})}Mapper.list();
+    }
+
+}

@@ -1,0 +1,4 @@
+2023-02-22 15:19:14,811 - d:\proj\python\my_util_py_pub\make_nginx_conf_file.py[line:165] - INFO: config write here ./nginx_8088.conf
+2023-02-22 15:19:14,811 - d:\proj\python\my_util_py_pub\make_nginx_conf_file.py[line:166] - INFO: nginx_root_dir .
+2023-02-22 15:19:14,811 - d:\proj\python\my_util_py_pub\make_nginx_conf_file.py[line:167] - INFO: port 8088
+2023-02-22 15:19:14,811 - d:\proj\python\my_util_py_pub\make_nginx_conf_file.py[line:169] - INFO: start at starplatinumora.top:8088

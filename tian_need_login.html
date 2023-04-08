@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit" />
+<meta name="force-rendering" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="bookmark" href="/favicon.ico" type="image/x-icon" />
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<link href="https://static.tianapi.com/static/css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="https://static.tianapi.com/static/css/icon.css" />
+<link rel="stylesheet" href="/static/css/tianapi.css?v=3.62" />
+<script type="text/javascript" src="https://static.tianapi.com/static/js/jquery.min.js"></script>
+<title>用户登录 - 天行数据TianAPI</title>
+
+<script src="https://static.tianapi.com/static/layer/layer.js"></script>
+<script src="/static/js/tianapi.js?v=2.55"></script>
+</head>
+<body>
+<header>
+<div class="header">
+<div class="menu">
+<div id="Logo">
+<h1><a href="https://www.tianapi.com/" title="天行数据API接口聚合平台">天行数据API接口聚合平台</a></h1>
+</div>
+<div id="menu-header">
+        <div id="menu-nav-btn" class="menu-btn">
+            <img src="/static/img/menu.png" />
+        </div>
+                <ul class="nav-bar">
+            <li><a href="/vip.html" title="天行数据会员服务">会员</a></li>
+                <li><a href="/list/" title="接口列表">接口</a></li>
+                <li><a href="/business.html" title="合作与定制">合作</a></li>
+                <li><a href="https://www.tianapi.com" title="天行微信API首页">首 页</a></li>
+                </ul>
+</div>
+        <div class="line">
+        <ul>
+        <li id="signup"><a href="/signup.html" title="注册账号">立即注册</a></li>
+        <li id="login"><a href="/login.html" title="立即登录">登录</a></li>
+        <li class="arrow tool"></li>
+    <li class="toolli"><a title="工具应用">工具</a>
+                    <div class="more-info"><div class="nav_tool">
+                        <span><a href="/webapi/">网页转API</a></span>
+                        <span><a href="/packapp/">打包生成小程序</a></span>
+                        <span><a href="/weixin/debug/">微信开发调试</a></span>
+                    <span><a href="/json/">JSON可视化编辑器</a></span>
+                        <span><a href="/demo/base64/">图片/base64互转</a></span>
+                        <span><a href="/jsonandxml.html">JSON/XML互转</a></span>
+                        <span><a href="/weixin/debug/menu/">微信菜单生成</a></span>
+                        <span><a href="/demo/robot/">天行机器人</a></span>
+                        </div></div>
+        </li>
+    <li class="fenge"></li>
+    <li><input class="form-control search" id="Searchapiname" name="apiname" value="" onkeydown="ApiSearch()" placeholder="搜 索API"> <i class="icon icon-search" onclick="ApiSearch(1)"></i></li>
+        </ul>
+        </div>
+</div>
+</div>
+</header>
+<div class="friends">
+        <h2><i class="icon icon-login"></i>用户登录</h2>
+        <form id="loginform">
+        <ul class="userlogin">
+    <li>
+        <label for="email"><i class="icon icon-user"></i>用户账号：</label>
+        <input class="email" type="text" name="loginid" placeholder="Email/昵称/手机号码" required="required" />
+    </li>
+        <li>
+        <label for="password"><i class="icon icon-lock"></i>用户密码：</label>
+        <input class="password" type="password" name="password" placeholder="请输入密码" required="required" />
+        </li>
+        <li>
+        <label for="autocode"><i class="icon icon-mytopic"></i>验&ensp;证&ensp;码：</label>
+    <input type="text" class="autocode" name="autocode" value=""  placeholder="请输入右边的验证码" required="required" />     
+        <a href="javascript:void(0)" onclick="document.getElementById('capthcha_img').src='../system/actuser.php?action=autocode&r='+Math.random()"><img id="capthcha_img" onclick="this.src='../system/actuser.php?action=autocode&r='+Math.random()" src="../system/actuser.php?action=autocode" /> </a>
+    </li>
+        <li><input class="loginBtn" type="button" onclick="login()" value="确定登录"/></li>
+                </ul>
+                </form>
+                <div class="backpwd"><div class="opensite">快捷登录：<a href="/thirdAuth/weixin"><img src="/static/img/icoweixin.png" alt="微信登录" title="微信登录" class="weixin" /></a><a href="/thirdAuth/weibo"><img src="/static/img/weibo24.png" alt="微博登录" title="微博登录" class="weibo" /></a><a href="/thirdAuth/qq"><img src="/static/img/qq24.png" alt="QQ登录" title="QQ登录" class="qq" /></a><a href="/thirdAuth/github"><img src="/static/img/github.png" alt="Github登录" title="Github登录" class="github" /></a></div><div class="wjmima"><a href="/backPwd.html">忘记密码</a><a href="https://www.tianapi.com/article/62" target="_blank">小程序登录</a></div></div>
+
+                <div class="request">
+                        <p>您还没有天行数据账号？立即注册一个吧</p>
+                        <a href="signup.html">立即注册</a>
+                </div>
+                </div>
+<script>
+function login(){
+        $.ajax({
+            url : "../system/actuser.php?action=login",
+            type : "post",
+            dataType : "json",
+            data:$('#loginform').serialize(),
+            success : function(json) {
+                if(json.code == 1){
+                    setTimeout(function(){
+                        window.location.href = "/console/";
+                    },500)
+                }else{
+                                        layer.close(layer.index);
+                                        setTimeout(function(){
+                    layer.msg(json.msg);
+                                        },500)
+                                        $("#capthcha_img").trigger("click");
+                }
+            },
+            beforeSend : function() {
+                layer.load(1);
+            }
+        });
+    }
+    jQuery(document).keydown(function(event) {
+        if (event.keyCode == 13) {
+            login();
+        }
+    });
+</script>
+<div id="shortcut-box">
+    <a class="kefu" href="javascript:;"><span>联系客服</span><i><img src="https://static.tianapi.com/static/img/workweixinewm.png"/></i></a>
+        <a class="qrcode" href="javascript:;" title="微信服务号"><i><img src="https://static.tianapi.com/static/img/tianapicom.jpg"/></i></a>
+        <a class="feedback" href="javascript:;"><span>咨询反馈</span></a>
+        <a class="gotop" id="scrollUp" href="#"><span>返回顶部</span></a>
+</div>
+<div class="footer"><div class="footer-link"><div class="footer-wechat"></div><div class="footer-wxapp"></div><a href="https://www.tianapi.com/article/" title="天行数据平台公告" target="_blank">通知公告</a> | <a href="/about.html" title="关于天行数据" target="_blank">关于我们</a> | <a href="https://www.tianapi.com/help" title="天行数据常见问题" target="_blank">常见问题</a> | <a href="/support.html">联系我们</a>
+<div class="footer-copy">互联网统一标准接口服务<a href="https://www.tianapi.com" title="天行数据API数据平台">天行数据</a>移动 开发TianAPI数据平台 <div class="footer-beian"><a href="https://beian.miit.gov.cn" target="_blank">沪ICP备16030555号-4</a><a target="_blank" href="http://www.beian.gov.cn"><img src="/static/img/beian.png"/>沪公网安备31011402008730号</a></div>Copyright &copy; 2015-2022 上海觉克信息科技有限公司版权所有</div>
+</div></div>
+<script type="text/javascript" src="/bdtj.js"></script>
+</body>
+</html>

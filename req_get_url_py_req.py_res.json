@@ -1,0 +1,1076 @@
+[{
+    "className": "com.starp.exam.controller.ConfigurationController",
+    "methodName": "add",
+    "requestType": "PUT"
+}, {
+    "className": "com.starp.exam.controller.DrawControllerMbp",
+    "classURL": "/api/draw",
+    "methodName": "create",
+    "methodURL": "/api/draw",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/draw'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.DrawControllerMbp",
+    "classURL": "/api/draw",
+    "methodName": "save",
+    "methodURL": "/api/draw/save",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/draw/save'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.DrawControllerMbp",
+    "classURL": "/api/draw",
+    "methodName": "saveAll",
+    "methodURL": "/api/draw/saveAll",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/draw/saveAll'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.DrawControllerMbp",
+    "classURL": "/api/draw",
+    "methodName": "selectPlusPage",
+    "methodURL": "/api/draw/selectPlusPage",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/draw/selectPlusPage'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.DrawControllerMbp",
+    "classURL": "/api/draw",
+    "methodName": "selectPage",
+    "methodURL": "/api/draw/selectPage",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/draw/selectPage'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.DrawControllerMbp",
+    "classURL": "/api/draw",
+    "methodName": "selectPageEqual",
+    "methodURL": "/api/draw/selectPageEqual",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/draw/selectPageEqual'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.DrawControllerMbp",
+    "classURL": "/api/draw",
+    "methodName": "deleteBy",
+    "methodURL": "/api/draw/deleteBy",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/draw/deleteBy'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.DrawControllerMbp",
+    "classURL": "/api/draw",
+    "methodName": "removeByIds",
+    "methodURL": "/api/draw/removeByIds",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/draw/removeByIds'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.ErrorController",
+    "methodName": "error",
+    "methodURL": "/error",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/error'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n"
+}, {
+    "className": "org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController",
+    "methodName": "errorHtml",
+    "methodURL": "/error",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/error'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n"
+}, {
+    "className": "com.starp.exam.controller.QuestionDrawControllerMbp",
+    "classURL": "/api/questionDraw",
+    "methodName": "create",
+    "methodURL": "/api/questionDraw",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/questionDraw'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.QuestionDrawControllerMbp",
+    "classURL": "/api/questionDraw",
+    "methodName": "save",
+    "methodURL": "/api/questionDraw/save",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/questionDraw/save'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.QuestionDrawControllerMbp",
+    "classURL": "/api/questionDraw",
+    "methodName": "saveAll",
+    "methodURL": "/api/questionDraw/saveAll",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/questionDraw/saveAll'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.QuestionDrawControllerMbp",
+    "classURL": "/api/questionDraw",
+    "methodName": "selectPlusPage",
+    "methodURL": "/api/questionDraw/selectPlusPage",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/questionDraw/selectPlusPage'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.QuestionDrawControllerMbp",
+    "classURL": "/api/questionDraw",
+    "methodName": "selectPage",
+    "methodURL": "/api/questionDraw/selectPage",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/questionDraw/selectPage'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.QuestionDrawControllerMbp",
+    "classURL": "/api/questionDraw",
+    "methodName": "selectPageEqual",
+    "methodURL": "/api/questionDraw/selectPageEqual",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/questionDraw/selectPageEqual'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.QuestionDrawControllerMbp",
+    "classURL": "/api/questionDraw",
+    "methodName": "deleteBy",
+    "methodURL": "/api/questionDraw/deleteBy",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/questionDraw/deleteBy'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.QuestionDrawControllerMbp",
+    "classURL": "/api/questionDraw",
+    "methodName": "removeByIds",
+    "methodURL": "/api/questionDraw/removeByIds",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/questionDraw/removeByIds'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.TenantController",
+    "classURL": "/api/tenant",
+    "methodName": "delete",
+    "methodURL": "/api/tenant/tenant/delete/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/tenant/tenant/delete/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.TenantController",
+    "classURL": "/api/tenant",
+    "methodName": "list",
+    "methodURL": "/api/tenant/tenant/list",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/tenant/tenant/list'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.TenantController",
+    "classURL": "/api/tenant",
+    "methodName": "select",
+    "methodURL": "/api/tenant/tenant/select/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/tenant/tenant/select/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.TenantController",
+    "classURL": "/api/tenant",
+    "methodName": "edit",
+    "methodURL": "/api/tenant/tenant/edit",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/tenant/tenant/edit'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.ComponentControllerMbp",
+    "classURL": "/api/component",
+    "methodName": "create",
+    "methodURL": "/api/component",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/component'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.ComponentControllerMbp",
+    "classURL": "/api/component",
+    "methodName": "save",
+    "methodURL": "/api/component/save",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/component/save'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.ComponentControllerMbp",
+    "classURL": "/api/component",
+    "methodName": "saveAll",
+    "methodURL": "/api/component/saveAll",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/component/saveAll'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.ComponentControllerMbp",
+    "classURL": "/api/component",
+    "methodName": "selectPlusPage",
+    "methodURL": "/api/component/selectPlusPage",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/component/selectPlusPage'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.ComponentControllerMbp",
+    "classURL": "/api/component",
+    "methodName": "selectPage",
+    "methodURL": "/api/component/selectPage",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/component/selectPage'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.ComponentControllerMbp",
+    "classURL": "/api/component",
+    "methodName": "selectPageEqual",
+    "methodURL": "/api/component/selectPageEqual",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/component/selectPageEqual'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.ComponentControllerMbp",
+    "classURL": "/api/component",
+    "methodName": "deleteBy",
+    "methodURL": "/api/component/deleteBy",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/component/deleteBy'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.ComponentControllerMbp",
+    "classURL": "/api/component",
+    "methodName": "removeByIds",
+    "methodURL": "/api/component/removeByIds",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/component/removeByIds'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.DashboardController",
+    "classURL": "/api/admin/dashboard",
+    "methodName": "Index",
+    "methodURL": "/api/admin/dashboard/index",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/dashboard/index'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.EducationController",
+    "classURL": "/api/admin/education",
+    "methodName": "delete",
+    "methodURL": "/api/admin/education/subject/delete/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/education/subject/delete/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.EducationController",
+    "classURL": "/api/admin/education",
+    "methodName": "list",
+    "methodURL": "/api/admin/education/subject/list",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/education/subject/list'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.EducationController",
+    "classURL": "/api/admin/education",
+    "methodName": "select",
+    "methodURL": "/api/admin/education/subject/select/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/education/subject/select/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.EducationController",
+    "classURL": "/api/admin/education",
+    "methodName": "edit",
+    "methodURL": "/api/admin/education/subject/edit",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/education/subject/edit'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.EducationController",
+    "classURL": "/api/admin/education",
+    "methodName": "pageList",
+    "methodURL": "/api/admin/education/subject/page",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/education/subject/page'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.ExamPaperAnswerController",
+    "classURL": "/api/admin/examPaperAnswer",
+    "methodName": "pageJudgeList",
+    "methodURL": "/api/admin/examPaperAnswer/page",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/examPaperAnswer/page'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.ExamPaperController",
+    "classURL": "/api/admin/exam/paper",
+    "methodName": "delete",
+    "methodURL": "/api/admin/exam/paper/delete/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/exam/paper/delete/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.ExamPaperController",
+    "classURL": "/api/admin/exam/paper",
+    "methodName": "select",
+    "methodURL": "/api/admin/exam/paper/select/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/exam/paper/select/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.ExamPaperController",
+    "classURL": "/api/admin/exam/paper",
+    "methodName": "edit",
+    "methodURL": "/api/admin/exam/paper/edit",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/exam/paper/edit'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.ExamPaperController",
+    "classURL": "/api/admin/exam/paper",
+    "methodName": "taskExamPageList",
+    "methodURL": "/api/admin/exam/paper/taskExamPage",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/exam/paper/taskExamPage'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.ExamPaperController",
+    "classURL": "/api/admin/exam/paper",
+    "methodName": "pageList",
+    "methodURL": "/api/admin/exam/paper/page",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/exam/paper/page'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.ExamPaperController",
+    "classURL": "/api/admin/exam/paper",
+    "methodName": "select_by_content_like",
+    "methodURL": "/api/admin/exam/paper/select_by_content_like",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/exam/paper/select_by_content_like'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.MessageController",
+    "classURL": "/api/admin/message",
+    "methodName": "send",
+    "methodURL": "/api/admin/message/send",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/message/send'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.MessageController",
+    "classURL": "/api/admin/message",
+    "methodName": "pageList",
+    "methodURL": "/api/admin/message/page",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/message/page'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "add",
+    "methodURL": "/api/all/addMongoTemplate",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/addMongoTemplate'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "PUT"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "delete",
+    "methodURL": "/api/all/delete/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/delete/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "select",
+    "methodURL": "/api/all/select/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/select/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "getAuthentication",
+    "methodURL": "/api/all/getAuthentication",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/getAuthentication'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "select_information_schema_columns",
+    "methodURL": "/api/all/select_information_schema_columns",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/select_information_schema_columns'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "edit",
+    "methodURL": "/api/all/edit",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/edit'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "pageList",
+    "methodURL": "/api/all/page",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/page'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "testPaper",
+    "methodURL": "/api/all/testPaper",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/testPaper'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "saveQuestion",
+    "methodURL": "/api/all/saveQuestion",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/saveQuestion'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "getkey",
+    "methodURL": "/api/all/api/getkey",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/api/getkey'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "GET"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "selectBySql",
+    "methodURL": "/api/all/selectBySql",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/selectBySql'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "coversUpload",
+    "methodURL": "/api/all/uploadFile",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/uploadFile'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "mongo_findAll",
+    "methodURL": "/api/all/mongo/findAll",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/mongo/findAll'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "GET"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "genPaper",
+    "methodURL": "/api/all/genPaper",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/genPaper'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "insertBatch",
+    "methodURL": "/api/all/insertBatch",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/insertBatch'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "select_limit_10",
+    "methodURL": "/api/all/select_limit_10",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/select_limit_10'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "queryWeather",
+    "methodURL": "/api/all/queryWeather",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/queryWeather'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "setkey",
+    "methodURL": "/api/all/api/setkey",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/api/setkey'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "GET"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "getAllURL",
+    "methodURL": "/api/all/getAllURL",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/getAllURL'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "findAllEsQuestion",
+    "methodURL": "/api/all/findAllEsQuestion",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/findAllEsQuestion'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "SELECT_table_name_list",
+    "methodURL": "/api/all/SELECT_table_name_list",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/SELECT_table_name_list'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "findAllTextContents",
+    "methodURL": "/api/all/findAllTextContents",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/findAllTextContents'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "select_by_content_like",
+    "methodURL": "/api/all/select_by_content_like",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/select_by_content_like'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "get_item_history_price",
+    "methodURL": "/api/all/get_item_history_price",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/all/get_item_history_price'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "GET"
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "delete",
+    "methodURL": "/api/admin/question/delete/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/question/delete/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "select",
+    "methodURL": "/api/admin/question/select/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/question/select/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "edit",
+    "methodURL": "/api/admin/question/edit",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/question/edit'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "selectPageEqual",
+    "methodURL": "/api/admin/question/selectPage/equal",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/question/selectPage/equal'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "pageList",
+    "methodURL": "/api/admin/question/page",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/question/page'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "insertBatch",
+    "methodURL": "/api/admin/question/insertBatch",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/question/insertBatch'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "selectByExample",
+    "methodURL": "/api/admin/question/selectByExample",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/question/selectByExample'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "autoPaper",
+    "methodURL": "/api/admin/question/autoPaper",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/question/autoPaper'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "findAllEs",
+    "methodURL": "/api/admin/question/findAllEs",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/question/findAllEs'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "findAllTextContents",
+    "methodURL": "/api/admin/question/findAllTextContents",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/question/findAllTextContents'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionControllerMbp",
+    "classURL": "/api/admin/question",
+    "methodName": "create",
+    "methodURL": "/api/admin/question",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/question'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionControllerMbp",
+    "classURL": "/api/admin/question",
+    "methodName": "save",
+    "methodURL": "/api/admin/question/save",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/question/save'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionControllerMbp",
+    "classURL": "/api/admin/question",
+    "methodName": "saveAll",
+    "methodURL": "/api/admin/question/saveAll",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/question/saveAll'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionControllerMbp",
+    "classURL": "/api/admin/question",
+    "methodName": "selectPlusPage",
+    "methodURL": "/api/admin/question/selectPlusPage",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/question/selectPlusPage'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionControllerMbp",
+    "classURL": "/api/admin/question",
+    "methodName": "selectPage",
+    "methodURL": "/api/admin/question/selectPage",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/question/selectPage'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionControllerMbp",
+    "classURL": "/api/admin/question",
+    "methodName": "selectPageEqual",
+    "methodURL": "/api/admin/question/selectPageEqual",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/question/selectPageEqual'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionControllerMbp",
+    "classURL": "/api/admin/question",
+    "methodName": "deleteBy",
+    "methodURL": "/api/admin/question/deleteBy",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/question/deleteBy'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionControllerMbp",
+    "classURL": "/api/admin/question",
+    "methodName": "removeByIds",
+    "methodURL": "/api/admin/question/removeByIds",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/question/removeByIds'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.TaskController",
+    "classURL": "/api/admin/task",
+    "methodName": "delete",
+    "methodURL": "/api/admin/task/delete/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/task/delete/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.TaskController",
+    "classURL": "/api/admin/task",
+    "methodName": "select",
+    "methodURL": "/api/admin/task/select/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/task/select/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.TaskController",
+    "classURL": "/api/admin/task",
+    "methodName": "edit",
+    "methodURL": "/api/admin/task/edit",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/task/edit'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.TaskController",
+    "classURL": "/api/admin/task",
+    "methodName": "pageList",
+    "methodURL": "/api/admin/task/page",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/task/page'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.TextContentControllerMbp",
+    "classURL": "/api/admin/textContent",
+    "methodName": "create",
+    "methodURL": "/api/admin/textContent",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/textContent'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.TextContentControllerMbp",
+    "classURL": "/api/admin/textContent",
+    "methodName": "save",
+    "methodURL": "/api/admin/textContent/save",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/textContent/save'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.TextContentControllerMbp",
+    "classURL": "/api/admin/textContent",
+    "methodName": "saveAll",
+    "methodURL": "/api/admin/textContent/saveAll",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/textContent/saveAll'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.TextContentControllerMbp",
+    "classURL": "/api/admin/textContent",
+    "methodName": "selectPlusPage",
+    "methodURL": "/api/admin/textContent/selectPlusPage",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/textContent/selectPlusPage'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.TextContentControllerMbp",
+    "classURL": "/api/admin/textContent",
+    "methodName": "selectPage",
+    "methodURL": "/api/admin/textContent/selectPage",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/textContent/selectPage'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.TextContentControllerMbp",
+    "classURL": "/api/admin/textContent",
+    "methodName": "selectPageEqual",
+    "methodURL": "/api/admin/textContent/selectPageEqual",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/textContent/selectPageEqual'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.TextContentControllerMbp",
+    "classURL": "/api/admin/textContent",
+    "methodName": "deleteBy",
+    "methodURL": "/api/admin/textContent/deleteBy",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/textContent/deleteBy'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.TextContentControllerMbp",
+    "classURL": "/api/admin/textContent",
+    "methodName": "removeByIds",
+    "methodURL": "/api/admin/textContent/removeByIds",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/textContent/removeByIds'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.UploadController",
+    "classURL": "/api/admin/upload",
+    "methodName": "upload",
+    "methodURL": "/api/admin/upload/configAndUpload",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/upload/configAndUpload'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n"
+}, {
+    "className": "com.starp.exam.controller.admin.UploadController",
+    "classURL": "/api/admin/upload",
+    "methodName": "questionUploadAndReadExcel",
+    "methodURL": "/api/admin/upload/image",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/upload/image'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n"
+}, {
+    "className": "com.starp.exam.controller.admin.UserController",
+    "classURL": "/api/admin/user",
+    "methodName": "update",
+    "methodURL": "/api/admin/user/update",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/user/update'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.UserController",
+    "classURL": "/api/admin/user",
+    "methodName": "delete",
+    "methodURL": "/api/admin/user/delete/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/user/delete/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.UserController",
+    "classURL": "/api/admin/user",
+    "methodName": "current",
+    "methodURL": "/api/admin/user/current",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/user/current'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.UserController",
+    "classURL": "/api/admin/user",
+    "methodName": "select",
+    "methodURL": "/api/admin/user/select/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/user/select/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.UserController",
+    "classURL": "/api/admin/user",
+    "methodName": "edit",
+    "methodURL": "/api/admin/user/edit",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/user/edit'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.UserController",
+    "classURL": "/api/admin/user",
+    "methodName": "pageList",
+    "methodURL": "/api/admin/user/page/list",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/user/page/list'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.UserController",
+    "classURL": "/api/admin/user",
+    "methodName": "eventPageList",
+    "methodURL": "/api/admin/user/event/page/list",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/user/event/page/list'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.UserController",
+    "classURL": "/api/admin/user",
+    "methodName": "changeStatus",
+    "methodURL": "/api/admin/user/changeStatus/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/user/changeStatus/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.UserController",
+    "classURL": "/api/admin/user",
+    "methodName": "selectByUserName",
+    "methodURL": "/api/admin/user/selectByUserName",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/admin/user/selectByUserName'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.admin.UserControllerEs",
+    "classURL": "/es/user",
+    "methodName": "contextLoads",
+    "methodURL": "/es/user/getCount",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/es/user/getCount'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n"
+}, {
+    "className": "com.starp.exam.controller.admin.UserControllerEs",
+    "classURL": "/es/user",
+    "methodName": "testDelete",
+    "methodURL": "/es/user/delete",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/es/user/delete'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n"
+}, {
+    "className": "com.starp.exam.controller.admin.UserControllerEs",
+    "classURL": "/es/user",
+    "methodName": "testGetAll",
+    "methodURL": "/es/user/getAll",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/es/user/getAll'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n"
+}, {
+    "className": "com.starp.exam.controller.admin.UserControllerEs",
+    "classURL": "/es/user",
+    "methodName": "testInsert",
+    "methodURL": "/es/user/add",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/es/user/add'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n"
+}, {
+    "className": "com.starp.exam.controller.student.DashboardController",
+    "classURL": "/api/student/dashboard",
+    "methodName": "index",
+    "methodURL": "/api/student/dashboard/index",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/dashboard/index'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.student.DashboardController",
+    "classURL": "/api/student/dashboard",
+    "methodName": "task",
+    "methodURL": "/api/student/dashboard/task",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/dashboard/task'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.student.EducationController",
+    "classURL": "/api/student/education",
+    "methodName": "list",
+    "methodURL": "/api/student/education/subject/list",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/education/subject/list'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.student.EducationController",
+    "classURL": "/api/student/education",
+    "methodName": "select",
+    "methodURL": "/api/student/education/subject/select/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/education/subject/select/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.student.ExamPaperAnswerController",
+    "classURL": "/api/student/exampaper/answer",
+    "methodName": "read",
+    "methodURL": "/api/student/exampaper/answer/read/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/exampaper/answer/read/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.student.ExamPaperAnswerController",
+    "classURL": "/api/student/exampaper/answer",
+    "methodName": "edit",
+    "methodURL": "/api/student/exampaper/answer/edit",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/exampaper/answer/edit'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.student.ExamPaperAnswerController",
+    "classURL": "/api/student/exampaper/answer",
+    "methodName": "pageList",
+    "methodURL": "/api/student/exampaper/answer/pageList",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/exampaper/answer/pageList'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.student.ExamPaperAnswerController",
+    "classURL": "/api/student/exampaper/answer",
+    "methodName": "answerSubmit",
+    "methodURL": "/api/student/exampaper/answer/answerSubmit",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/exampaper/answer/answerSubmit'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.student.ExamPaperController",
+    "classURL": "/api/student/exam/paper",
+    "methodName": "select",
+    "methodURL": "/api/student/exam/paper/select/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/exam/paper/select/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.student.ExamPaperController",
+    "classURL": "/api/student/exam/paper",
+    "methodName": "pageList",
+    "methodURL": "/api/student/exam/paper/pageList",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/exam/paper/pageList'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.student.QuestionAnswerController",
+    "classURL": "/api/student/question/answer",
+    "methodName": "select",
+    "methodURL": "/api/student/question/answer/select/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/question/answer/select/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.student.QuestionAnswerController",
+    "classURL": "/api/student/question/answer",
+    "methodName": "pageList",
+    "methodURL": "/api/student/question/answer/page",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/question/answer/page'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.student.UploadController",
+    "classURL": "/api/student/upload",
+    "methodName": "questionUploadAndReadExcel",
+    "methodURL": "/api/student/upload/image",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/upload/image'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n"
+}, {
+    "className": "com.starp.exam.controller.student.UserController",
+    "classURL": "/api/student/user",
+    "methodName": "register",
+    "methodURL": "/api/student/user/register",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/user/register'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.student.UserController",
+    "classURL": "/api/student/user",
+    "methodName": "log",
+    "methodURL": "/api/student/user/log",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/user/log'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.student.UserController",
+    "classURL": "/api/student/user",
+    "methodName": "update",
+    "methodURL": "/api/student/user/update",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/user/update'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.student.UserController",
+    "classURL": "/api/student/user",
+    "methodName": "read",
+    "methodURL": "/api/student/user/message/read/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/user/message/read/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.student.UserController",
+    "classURL": "/api/student/user",
+    "methodName": "current",
+    "methodURL": "/api/student/user/current",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/user/current'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.student.UserController",
+    "classURL": "/api/student/user",
+    "methodName": "unReadCount",
+    "methodURL": "/api/student/user/message/unreadCount",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/user/message/unreadCount'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.student.UserController",
+    "classURL": "/api/student/user",
+    "methodName": "messagePageList",
+    "methodURL": "/api/student/user/message/page",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/student/user/message/page'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.wx.student.AuthController",
+    "classURL": "/api/wx/student/auth",
+    "methodName": "bind",
+    "methodURL": "/api/wx/student/auth/bind",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/wx/student/auth/bind'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.wx.student.AuthController",
+    "classURL": "/api/wx/student/auth",
+    "methodName": "checkBind",
+    "methodURL": "/api/wx/student/auth/checkBind",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/wx/student/auth/checkBind'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.wx.student.AuthController",
+    "classURL": "/api/wx/student/auth",
+    "methodName": "unBind",
+    "methodURL": "/api/wx/student/auth/unBind",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/wx/student/auth/unBind'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.wx.student.DashboardController",
+    "classURL": "/api/wx/student/dashboard",
+    "methodName": "index",
+    "methodURL": "/api/wx/student/dashboard/index",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/wx/student/dashboard/index'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.wx.student.DashboardController",
+    "classURL": "/api/wx/student/dashboard",
+    "methodName": "task",
+    "methodURL": "/api/wx/student/dashboard/task",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/wx/student/dashboard/task'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.wx.student.ExamPaperAnswerController",
+    "classURL": "/api/wx/student/exampaper/answer",
+    "methodName": "read",
+    "methodURL": "/api/wx/student/exampaper/answer/read/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/wx/student/exampaper/answer/read/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.wx.student.ExamPaperAnswerController",
+    "classURL": "/api/wx/student/exampaper/answer",
+    "methodName": "pageList",
+    "methodURL": "/api/wx/student/exampaper/answer/pageList",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/wx/student/exampaper/answer/pageList'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.wx.student.ExamPaperAnswerController",
+    "classURL": "/api/wx/student/exampaper/answer",
+    "methodName": "answerSubmit",
+    "methodURL": "/api/wx/student/exampaper/answer/answerSubmit",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/wx/student/exampaper/answer/answerSubmit'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.wx.student.ExamPaperController",
+    "classURL": "/api/wx/student/exampaper",
+    "methodName": "select",
+    "methodURL": "/api/wx/student/exampaper/select/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/wx/student/exampaper/select/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.wx.student.ExamPaperController",
+    "classURL": "/api/wx/student/exampaper",
+    "methodName": "pageList",
+    "methodURL": "/api/wx/student/exampaper/pageList",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/wx/student/exampaper/pageList'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.wx.student.UserController",
+    "classURL": "/api/wx/student/user",
+    "methodName": "register",
+    "methodURL": "/api/wx/student/user/register",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/wx/student/user/register'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.wx.student.UserController",
+    "classURL": "/api/wx/student/user",
+    "methodName": "log",
+    "methodURL": "/api/wx/student/user/log",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/wx/student/user/log'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.wx.student.UserController",
+    "classURL": "/api/wx/student/user",
+    "methodName": "update",
+    "methodURL": "/api/wx/student/user/update",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/wx/student/user/update'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.wx.student.UserController",
+    "classURL": "/api/wx/student/user",
+    "methodName": "read",
+    "methodURL": "/api/wx/student/user/message/read/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/wx/student/user/message/read/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.wx.student.UserController",
+    "classURL": "/api/wx/student/user",
+    "methodName": "current",
+    "methodURL": "/api/wx/student/user/current",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/wx/student/user/current'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.wx.student.UserController",
+    "classURL": "/api/wx/student/user",
+    "methodName": "unReadCount",
+    "methodURL": "/api/wx/student/user/message/unreadCount",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/wx/student/user/message/unreadCount'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.wx.student.UserController",
+    "classURL": "/api/wx/student/user",
+    "methodName": "messageDetail",
+    "methodURL": "/api/wx/student/user/message/detail/{id}",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/wx/student/user/message/detail/{id}'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "com.starp.exam.controller.wx.student.UserController",
+    "classURL": "/api/wx/student/user",
+    "methodName": "messagePageList",
+    "methodURL": "/api/wx/student/user/message/page",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/api/wx/student/user/message/page'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n",
+    "requestType": "POST"
+}, {
+    "className": "springfox.documentation.swagger.web.ApiResourceController",
+    "classURL": "/swagger-resources",
+    "methodName": "swaggerResources",
+    "methodURL": "/swagger-resources",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/swagger-resources'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n"
+}, {
+    "className": "springfox.documentation.swagger.web.ApiResourceController",
+    "classURL": "/swagger-resources",
+    "methodName": "uiConfiguration",
+    "methodURL": "/swagger-resources/configuration/ui",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/swagger-resources/configuration/ui'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n"
+}, {
+    "className": "springfox.documentation.swagger.web.ApiResourceController",
+    "classURL": "/swagger-resources",
+    "methodName": "securityConfiguration",
+    "methodURL": "/swagger-resources/configuration/security",
+    "pythonReq": "\n# //    http://localhost:8889/acc/last\n# url='http://localhost:8889/acc/last'\nbase_url='http://localhost:8003'\nurl=f'{base_url}/swagger-resources/configuration/security'\n\n# url='http://localhost:8003/api/all/getAllURL'\nimport requests\nres=requests.post(url, data={'url':'http://localhost:8889/acc/last'})\n# res=requests.get(url)\nprint(res.text)\n\n"
+}]

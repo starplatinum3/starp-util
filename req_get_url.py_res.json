@@ -1,0 +1,5643 @@
+[{
+    "className": "com.starp.exam.controller.ConfigurationController",
+    "methodName": "add",
+    "requestType": "PUT",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": [],
+            "empty": true
+        },
+        "methodsCondition": {
+            "methods": ["PUT"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.DrawControllerMbp",
+    "classURL": "/api/draw",
+    "methodName": "create",
+    "methodURL": "/api/draw",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/draw"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.DrawControllerMbp",
+    "classURL": "/api/draw",
+    "methodName": "save",
+    "methodURL": "/api/draw/save",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/draw/save"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.DrawControllerMbp",
+    "classURL": "/api/draw",
+    "methodName": "saveAll",
+    "methodURL": "/api/draw/saveAll",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/draw/saveAll"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.DrawControllerMbp",
+    "classURL": "/api/draw",
+    "methodName": "deleteBy",
+    "methodURL": "/api/draw/deleteBy",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/draw/deleteBy"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.DrawControllerMbp",
+    "classURL": "/api/draw",
+    "methodName": "selectPageEqual",
+    "methodURL": "/api/draw/selectPageEqual",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/draw/selectPageEqual"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.DrawControllerMbp",
+    "classURL": "/api/draw",
+    "methodName": "selectPage",
+    "methodURL": "/api/draw/selectPage",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/draw/selectPage"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.DrawControllerMbp",
+    "classURL": "/api/draw",
+    "methodName": "removeByIds",
+    "methodURL": "/api/draw/removeByIds",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/draw/removeByIds"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.DrawControllerMbp",
+    "classURL": "/api/draw",
+    "methodName": "selectPlusPage",
+    "methodURL": "/api/draw/selectPlusPage",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/draw/selectPlusPage"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.ErrorController",
+    "methodName": "error",
+    "methodURL": "/error",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/error"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": [],
+            "empty": true
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [{
+                "mediaType": {
+                    "type": "application",
+                    "subtype": "json",
+                    "parameters": {},
+                    "qualityValue": 1.0,
+                    "concrete": true,
+                    "wildcardSubtype": false,
+                    "charset": null,
+                    "wildcardType": false
+                },
+                "negated": false
+            }],
+            "empty": false,
+            "producibleMediaTypes": [{
+                "type": "application",
+                "subtype": "json",
+                "parameters": {},
+                "qualityValue": 1.0,
+                "concrete": true,
+                "wildcardSubtype": false,
+                "charset": null,
+                "wildcardType": false
+            }]
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController",
+    "methodName": "errorHtml",
+    "methodURL": "/error",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/error"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": [],
+            "empty": true
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [{
+                "mediaType": {
+                    "type": "text",
+                    "subtype": "html",
+                    "parameters": {},
+                    "qualityValue": 1.0,
+                    "concrete": true,
+                    "wildcardSubtype": false,
+                    "charset": null,
+                    "wildcardType": false
+                },
+                "negated": false
+            }],
+            "empty": false,
+            "producibleMediaTypes": [{
+                "type": "text",
+                "subtype": "html",
+                "parameters": {},
+                "qualityValue": 1.0,
+                "concrete": true,
+                "wildcardSubtype": false,
+                "charset": null,
+                "wildcardType": false
+            }]
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.QuestionDrawControllerMbp",
+    "classURL": "/api/questionDraw",
+    "methodName": "create",
+    "methodURL": "/api/questionDraw",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/questionDraw"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.QuestionDrawControllerMbp",
+    "classURL": "/api/questionDraw",
+    "methodName": "save",
+    "methodURL": "/api/questionDraw/save",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/questionDraw/save"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.QuestionDrawControllerMbp",
+    "classURL": "/api/questionDraw",
+    "methodName": "saveAll",
+    "methodURL": "/api/questionDraw/saveAll",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/questionDraw/saveAll"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.QuestionDrawControllerMbp",
+    "classURL": "/api/questionDraw",
+    "methodName": "deleteBy",
+    "methodURL": "/api/questionDraw/deleteBy",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/questionDraw/deleteBy"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.QuestionDrawControllerMbp",
+    "classURL": "/api/questionDraw",
+    "methodName": "selectPageEqual",
+    "methodURL": "/api/questionDraw/selectPageEqual",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/questionDraw/selectPageEqual"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.QuestionDrawControllerMbp",
+    "classURL": "/api/questionDraw",
+    "methodName": "selectPage",
+    "methodURL": "/api/questionDraw/selectPage",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/questionDraw/selectPage"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.QuestionDrawControllerMbp",
+    "classURL": "/api/questionDraw",
+    "methodName": "removeByIds",
+    "methodURL": "/api/questionDraw/removeByIds",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/questionDraw/removeByIds"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.QuestionDrawControllerMbp",
+    "classURL": "/api/questionDraw",
+    "methodName": "selectPlusPage",
+    "methodURL": "/api/questionDraw/selectPlusPage",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/questionDraw/selectPlusPage"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.TenantController",
+    "classURL": "/api/tenant",
+    "methodName": "delete",
+    "methodURL": "/api/tenant/tenant/delete/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/tenant/tenant/delete/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.TenantController",
+    "classURL": "/api/tenant",
+    "methodName": "list",
+    "methodURL": "/api/tenant/tenant/list",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/tenant/tenant/list"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.TenantController",
+    "classURL": "/api/tenant",
+    "methodName": "select",
+    "methodURL": "/api/tenant/tenant/select/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/tenant/tenant/select/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.TenantController",
+    "classURL": "/api/tenant",
+    "methodName": "edit",
+    "methodURL": "/api/tenant/tenant/edit",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/tenant/tenant/edit"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.ComponentControllerMbp",
+    "classURL": "/api/component",
+    "methodName": "create",
+    "methodURL": "/api/component",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/component"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.ComponentControllerMbp",
+    "classURL": "/api/component",
+    "methodName": "save",
+    "methodURL": "/api/component/save",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/component/save"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.ComponentControllerMbp",
+    "classURL": "/api/component",
+    "methodName": "saveAll",
+    "methodURL": "/api/component/saveAll",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/component/saveAll"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.ComponentControllerMbp",
+    "classURL": "/api/component",
+    "methodName": "deleteBy",
+    "methodURL": "/api/component/deleteBy",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/component/deleteBy"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.ComponentControllerMbp",
+    "classURL": "/api/component",
+    "methodName": "selectPageEqual",
+    "methodURL": "/api/component/selectPageEqual",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/component/selectPageEqual"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.ComponentControllerMbp",
+    "classURL": "/api/component",
+    "methodName": "selectPage",
+    "methodURL": "/api/component/selectPage",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/component/selectPage"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.ComponentControllerMbp",
+    "classURL": "/api/component",
+    "methodName": "removeByIds",
+    "methodURL": "/api/component/removeByIds",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/component/removeByIds"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.ComponentControllerMbp",
+    "classURL": "/api/component",
+    "methodName": "selectPlusPage",
+    "methodURL": "/api/component/selectPlusPage",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/component/selectPlusPage"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.DashboardController",
+    "classURL": "/api/admin/dashboard",
+    "methodName": "Index",
+    "methodURL": "/api/admin/dashboard/index",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/dashboard/index"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.EducationController",
+    "classURL": "/api/admin/education",
+    "methodName": "delete",
+    "methodURL": "/api/admin/education/subject/delete/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/education/subject/delete/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.EducationController",
+    "classURL": "/api/admin/education",
+    "methodName": "list",
+    "methodURL": "/api/admin/education/subject/list",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/education/subject/list"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.EducationController",
+    "classURL": "/api/admin/education",
+    "methodName": "select",
+    "methodURL": "/api/admin/education/subject/select/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/education/subject/select/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.EducationController",
+    "classURL": "/api/admin/education",
+    "methodName": "pageList",
+    "methodURL": "/api/admin/education/subject/page",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/education/subject/page"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.EducationController",
+    "classURL": "/api/admin/education",
+    "methodName": "edit",
+    "methodURL": "/api/admin/education/subject/edit",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/education/subject/edit"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.ExamPaperAnswerController",
+    "classURL": "/api/admin/examPaperAnswer",
+    "methodName": "pageJudgeList",
+    "methodURL": "/api/admin/examPaperAnswer/page",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/examPaperAnswer/page"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.ExamPaperController",
+    "classURL": "/api/admin/exam/paper",
+    "methodName": "delete",
+    "methodURL": "/api/admin/exam/paper/delete/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/exam/paper/delete/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.ExamPaperController",
+    "classURL": "/api/admin/exam/paper",
+    "methodName": "select",
+    "methodURL": "/api/admin/exam/paper/select/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/exam/paper/select/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.ExamPaperController",
+    "classURL": "/api/admin/exam/paper",
+    "methodName": "pageList",
+    "methodURL": "/api/admin/exam/paper/page",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/exam/paper/page"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.ExamPaperController",
+    "classURL": "/api/admin/exam/paper",
+    "methodName": "edit",
+    "methodURL": "/api/admin/exam/paper/edit",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/exam/paper/edit"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.ExamPaperController",
+    "classURL": "/api/admin/exam/paper",
+    "methodName": "taskExamPageList",
+    "methodURL": "/api/admin/exam/paper/taskExamPage",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/exam/paper/taskExamPage"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.ExamPaperController",
+    "classURL": "/api/admin/exam/paper",
+    "methodName": "select_by_content_like",
+    "methodURL": "/api/admin/exam/paper/select_by_content_like",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/exam/paper/select_by_content_like"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.MessageController",
+    "classURL": "/api/admin/message",
+    "methodName": "send",
+    "methodURL": "/api/admin/message/send",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/message/send"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.MessageController",
+    "classURL": "/api/admin/message",
+    "methodName": "pageList",
+    "methodURL": "/api/admin/message/page",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/message/page"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "add",
+    "methodURL": "/api/all/addMongoTemplate",
+    "requestType": "PUT",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/addMongoTemplate"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["PUT"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "delete",
+    "methodURL": "/api/all/delete/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/delete/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "select",
+    "methodURL": "/api/all/select/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/select/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "pageList",
+    "methodURL": "/api/all/page",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/page"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "edit",
+    "methodURL": "/api/all/edit",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/edit"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "coversUpload",
+    "methodURL": "/api/all/uploadFile",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/uploadFile"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "mongo_findAll",
+    "methodURL": "/api/all/mongo/findAll",
+    "requestType": "GET",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/mongo/findAll"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["GET"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "setkey",
+    "methodURL": "/api/all/api/setkey",
+    "requestType": "GET",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/api/setkey"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["GET"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "testPaper",
+    "methodURL": "/api/all/testPaper",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/testPaper"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "queryWeather",
+    "methodURL": "/api/all/queryWeather",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/queryWeather"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "saveQuestion",
+    "methodURL": "/api/all/saveQuestion",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/saveQuestion"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "getkey",
+    "methodURL": "/api/all/api/getkey",
+    "requestType": "GET",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/api/getkey"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["GET"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "selectBySql",
+    "methodURL": "/api/all/selectBySql",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/selectBySql"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "genPaper",
+    "methodURL": "/api/all/genPaper",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/genPaper"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "insertBatch",
+    "methodURL": "/api/all/insertBatch",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/insertBatch"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "select_limit_10",
+    "methodURL": "/api/all/select_limit_10",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/select_limit_10"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "getAllURL",
+    "methodURL": "/api/all/getAllURL",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/getAllURL"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "select_information_schema_columns",
+    "methodURL": "/api/all/select_information_schema_columns",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/select_information_schema_columns"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "getAuthentication",
+    "methodURL": "/api/all/getAuthentication",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/getAuthentication"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "SELECT_table_name_list",
+    "methodURL": "/api/all/SELECT_table_name_list",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/SELECT_table_name_list"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "findAllTextContents",
+    "methodURL": "/api/all/findAllTextContents",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/findAllTextContents"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "findAllEsQuestion",
+    "methodURL": "/api/all/findAllEsQuestion",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/findAllEsQuestion"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "select_by_content_like",
+    "methodURL": "/api/all/select_by_content_like",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/select_by_content_like"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.PermitAllController",
+    "classURL": "/api/all",
+    "methodName": "get_item_history_price",
+    "methodURL": "/api/all/get_item_history_price",
+    "requestType": "GET",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/all/get_item_history_price"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["GET"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "delete",
+    "methodURL": "/api/admin/question/delete/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/question/delete/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "select",
+    "methodURL": "/api/admin/question/select/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/question/select/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "selectPageEqual",
+    "methodURL": "/api/admin/question/selectPage/equal",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/question/selectPage/equal"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "pageList",
+    "methodURL": "/api/admin/question/page",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/question/page"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "edit",
+    "methodURL": "/api/admin/question/edit",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/question/edit"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "insertBatch",
+    "methodURL": "/api/admin/question/insertBatch",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/question/insertBatch"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "findAllTextContents",
+    "methodURL": "/api/admin/question/findAllTextContents",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/question/findAllTextContents"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "findAllEs",
+    "methodURL": "/api/admin/question/findAllEs",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/question/findAllEs"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "autoPaper",
+    "methodURL": "/api/admin/question/autoPaper",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/question/autoPaper"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionController",
+    "classURL": "/api/admin/question",
+    "methodName": "selectByExample",
+    "methodURL": "/api/admin/question/selectByExample",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/question/selectByExample"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionControllerMbp",
+    "classURL": "/api/admin/question",
+    "methodName": "create",
+    "methodURL": "/api/admin/question",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/question"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionControllerMbp",
+    "classURL": "/api/admin/question",
+    "methodName": "save",
+    "methodURL": "/api/admin/question/save",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/question/save"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionControllerMbp",
+    "classURL": "/api/admin/question",
+    "methodName": "saveAll",
+    "methodURL": "/api/admin/question/saveAll",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/question/saveAll"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionControllerMbp",
+    "classURL": "/api/admin/question",
+    "methodName": "deleteBy",
+    "methodURL": "/api/admin/question/deleteBy",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/question/deleteBy"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionControllerMbp",
+    "classURL": "/api/admin/question",
+    "methodName": "selectPageEqual",
+    "methodURL": "/api/admin/question/selectPageEqual",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/question/selectPageEqual"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionControllerMbp",
+    "classURL": "/api/admin/question",
+    "methodName": "selectPage",
+    "methodURL": "/api/admin/question/selectPage",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/question/selectPage"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionControllerMbp",
+    "classURL": "/api/admin/question",
+    "methodName": "removeByIds",
+    "methodURL": "/api/admin/question/removeByIds",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/question/removeByIds"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.QuestionControllerMbp",
+    "classURL": "/api/admin/question",
+    "methodName": "selectPlusPage",
+    "methodURL": "/api/admin/question/selectPlusPage",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/question/selectPlusPage"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.TaskController",
+    "classURL": "/api/admin/task",
+    "methodName": "delete",
+    "methodURL": "/api/admin/task/delete/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/task/delete/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.TaskController",
+    "classURL": "/api/admin/task",
+    "methodName": "select",
+    "methodURL": "/api/admin/task/select/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/task/select/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.TaskController",
+    "classURL": "/api/admin/task",
+    "methodName": "pageList",
+    "methodURL": "/api/admin/task/page",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/task/page"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.TaskController",
+    "classURL": "/api/admin/task",
+    "methodName": "edit",
+    "methodURL": "/api/admin/task/edit",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/task/edit"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.TextContentControllerMbp",
+    "classURL": "/api/admin/textContent",
+    "methodName": "create",
+    "methodURL": "/api/admin/textContent",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/textContent"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.TextContentControllerMbp",
+    "classURL": "/api/admin/textContent",
+    "methodName": "save",
+    "methodURL": "/api/admin/textContent/save",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/textContent/save"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.TextContentControllerMbp",
+    "classURL": "/api/admin/textContent",
+    "methodName": "saveAll",
+    "methodURL": "/api/admin/textContent/saveAll",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/textContent/saveAll"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.TextContentControllerMbp",
+    "classURL": "/api/admin/textContent",
+    "methodName": "deleteBy",
+    "methodURL": "/api/admin/textContent/deleteBy",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/textContent/deleteBy"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.TextContentControllerMbp",
+    "classURL": "/api/admin/textContent",
+    "methodName": "selectPageEqual",
+    "methodURL": "/api/admin/textContent/selectPageEqual",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/textContent/selectPageEqual"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.TextContentControllerMbp",
+    "classURL": "/api/admin/textContent",
+    "methodName": "selectPage",
+    "methodURL": "/api/admin/textContent/selectPage",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/textContent/selectPage"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.TextContentControllerMbp",
+    "classURL": "/api/admin/textContent",
+    "methodName": "removeByIds",
+    "methodURL": "/api/admin/textContent/removeByIds",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/textContent/removeByIds"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.TextContentControllerMbp",
+    "classURL": "/api/admin/textContent",
+    "methodName": "selectPlusPage",
+    "methodURL": "/api/admin/textContent/selectPlusPage",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/textContent/selectPlusPage"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.UploadController",
+    "classURL": "/api/admin/upload",
+    "methodName": "questionUploadAndReadExcel",
+    "methodURL": "/api/admin/upload/image",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/upload/image"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": [],
+            "empty": true
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.UploadController",
+    "classURL": "/api/admin/upload",
+    "methodName": "upload",
+    "methodURL": "/api/admin/upload/configAndUpload",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/upload/configAndUpload"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": [],
+            "empty": true
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.UserController",
+    "classURL": "/api/admin/user",
+    "methodName": "update",
+    "methodURL": "/api/admin/user/update",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/user/update"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.UserController",
+    "classURL": "/api/admin/user",
+    "methodName": "delete",
+    "methodURL": "/api/admin/user/delete/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/user/delete/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.UserController",
+    "classURL": "/api/admin/user",
+    "methodName": "current",
+    "methodURL": "/api/admin/user/current",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/user/current"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.UserController",
+    "classURL": "/api/admin/user",
+    "methodName": "select",
+    "methodURL": "/api/admin/user/select/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/user/select/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.UserController",
+    "classURL": "/api/admin/user",
+    "methodName": "pageList",
+    "methodURL": "/api/admin/user/page/list",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/user/page/list"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.UserController",
+    "classURL": "/api/admin/user",
+    "methodName": "edit",
+    "methodURL": "/api/admin/user/edit",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/user/edit"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.UserController",
+    "classURL": "/api/admin/user",
+    "methodName": "changeStatus",
+    "methodURL": "/api/admin/user/changeStatus/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/user/changeStatus/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.UserController",
+    "classURL": "/api/admin/user",
+    "methodName": "eventPageList",
+    "methodURL": "/api/admin/user/event/page/list",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/user/event/page/list"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.UserController",
+    "classURL": "/api/admin/user",
+    "methodName": "selectByUserName",
+    "methodURL": "/api/admin/user/selectByUserName",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/admin/user/selectByUserName"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.UserControllerEs",
+    "classURL": "/es/user",
+    "methodName": "testInsert",
+    "methodURL": "/es/user/add",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/es/user/add"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": [],
+            "empty": true
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.UserControllerEs",
+    "classURL": "/es/user",
+    "methodName": "testDelete",
+    "methodURL": "/es/user/delete",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/es/user/delete"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": [],
+            "empty": true
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.UserControllerEs",
+    "classURL": "/es/user",
+    "methodName": "contextLoads",
+    "methodURL": "/es/user/getCount",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/es/user/getCount"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": [],
+            "empty": true
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.admin.UserControllerEs",
+    "classURL": "/es/user",
+    "methodName": "testGetAll",
+    "methodURL": "/es/user/getAll",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/es/user/getAll"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": [],
+            "empty": true
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.DashboardController",
+    "classURL": "/api/student/dashboard",
+    "methodName": "index",
+    "methodURL": "/api/student/dashboard/index",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/dashboard/index"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.DashboardController",
+    "classURL": "/api/student/dashboard",
+    "methodName": "task",
+    "methodURL": "/api/student/dashboard/task",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/dashboard/task"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.EducationController",
+    "classURL": "/api/student/education",
+    "methodName": "list",
+    "methodURL": "/api/student/education/subject/list",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/education/subject/list"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.EducationController",
+    "classURL": "/api/student/education",
+    "methodName": "select",
+    "methodURL": "/api/student/education/subject/select/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/education/subject/select/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.ExamPaperAnswerController",
+    "classURL": "/api/student/exampaper/answer",
+    "methodName": "read",
+    "methodURL": "/api/student/exampaper/answer/read/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/exampaper/answer/read/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.ExamPaperAnswerController",
+    "classURL": "/api/student/exampaper/answer",
+    "methodName": "pageList",
+    "methodURL": "/api/student/exampaper/answer/pageList",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/exampaper/answer/pageList"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.ExamPaperAnswerController",
+    "classURL": "/api/student/exampaper/answer",
+    "methodName": "edit",
+    "methodURL": "/api/student/exampaper/answer/edit",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/exampaper/answer/edit"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.ExamPaperAnswerController",
+    "classURL": "/api/student/exampaper/answer",
+    "methodName": "answerSubmit",
+    "methodURL": "/api/student/exampaper/answer/answerSubmit",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/exampaper/answer/answerSubmit"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.ExamPaperController",
+    "classURL": "/api/student/exam/paper",
+    "methodName": "select",
+    "methodURL": "/api/student/exam/paper/select/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/exam/paper/select/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.ExamPaperController",
+    "classURL": "/api/student/exam/paper",
+    "methodName": "pageList",
+    "methodURL": "/api/student/exam/paper/pageList",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/exam/paper/pageList"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.QuestionAnswerController",
+    "classURL": "/api/student/question/answer",
+    "methodName": "select",
+    "methodURL": "/api/student/question/answer/select/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/question/answer/select/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.QuestionAnswerController",
+    "classURL": "/api/student/question/answer",
+    "methodName": "pageList",
+    "methodURL": "/api/student/question/answer/page",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/question/answer/page"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.UploadController",
+    "classURL": "/api/student/upload",
+    "methodName": "questionUploadAndReadExcel",
+    "methodURL": "/api/student/upload/image",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/upload/image"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": [],
+            "empty": true
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.UserController",
+    "classURL": "/api/student/user",
+    "methodName": "register",
+    "methodURL": "/api/student/user/register",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/user/register"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.UserController",
+    "classURL": "/api/student/user",
+    "methodName": "log",
+    "methodURL": "/api/student/user/log",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/user/log"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.UserController",
+    "classURL": "/api/student/user",
+    "methodName": "update",
+    "methodURL": "/api/student/user/update",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/user/update"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.UserController",
+    "classURL": "/api/student/user",
+    "methodName": "read",
+    "methodURL": "/api/student/user/message/read/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/user/message/read/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.UserController",
+    "classURL": "/api/student/user",
+    "methodName": "current",
+    "methodURL": "/api/student/user/current",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/user/current"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.UserController",
+    "classURL": "/api/student/user",
+    "methodName": "messagePageList",
+    "methodURL": "/api/student/user/message/page",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/user/message/page"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.student.UserController",
+    "classURL": "/api/student/user",
+    "methodName": "unReadCount",
+    "methodURL": "/api/student/user/message/unreadCount",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/student/user/message/unreadCount"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.wx.student.AuthController",
+    "classURL": "/api/wx/student/auth",
+    "methodName": "bind",
+    "methodURL": "/api/wx/student/auth/bind",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/wx/student/auth/bind"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.wx.student.AuthController",
+    "classURL": "/api/wx/student/auth",
+    "methodName": "unBind",
+    "methodURL": "/api/wx/student/auth/unBind",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/wx/student/auth/unBind"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.wx.student.AuthController",
+    "classURL": "/api/wx/student/auth",
+    "methodName": "checkBind",
+    "methodURL": "/api/wx/student/auth/checkBind",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/wx/student/auth/checkBind"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.wx.student.DashboardController",
+    "classURL": "/api/wx/student/dashboard",
+    "methodName": "index",
+    "methodURL": "/api/wx/student/dashboard/index",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/wx/student/dashboard/index"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.wx.student.DashboardController",
+    "classURL": "/api/wx/student/dashboard",
+    "methodName": "task",
+    "methodURL": "/api/wx/student/dashboard/task",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/wx/student/dashboard/task"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.wx.student.ExamPaperAnswerController",
+    "classURL": "/api/wx/student/exampaper/answer",
+    "methodName": "read",
+    "methodURL": "/api/wx/student/exampaper/answer/read/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/wx/student/exampaper/answer/read/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.wx.student.ExamPaperAnswerController",
+    "classURL": "/api/wx/student/exampaper/answer",
+    "methodName": "pageList",
+    "methodURL": "/api/wx/student/exampaper/answer/pageList",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/wx/student/exampaper/answer/pageList"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.wx.student.ExamPaperAnswerController",
+    "classURL": "/api/wx/student/exampaper/answer",
+    "methodName": "answerSubmit",
+    "methodURL": "/api/wx/student/exampaper/answer/answerSubmit",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/wx/student/exampaper/answer/answerSubmit"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.wx.student.ExamPaperController",
+    "classURL": "/api/wx/student/exampaper",
+    "methodName": "select",
+    "methodURL": "/api/wx/student/exampaper/select/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/wx/student/exampaper/select/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.wx.student.ExamPaperController",
+    "classURL": "/api/wx/student/exampaper",
+    "methodName": "pageList",
+    "methodURL": "/api/wx/student/exampaper/pageList",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/wx/student/exampaper/pageList"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.wx.student.UserController",
+    "classURL": "/api/wx/student/user",
+    "methodName": "register",
+    "methodURL": "/api/wx/student/user/register",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/wx/student/user/register"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.wx.student.UserController",
+    "classURL": "/api/wx/student/user",
+    "methodName": "log",
+    "methodURL": "/api/wx/student/user/log",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/wx/student/user/log"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.wx.student.UserController",
+    "classURL": "/api/wx/student/user",
+    "methodName": "update",
+    "methodURL": "/api/wx/student/user/update",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/wx/student/user/update"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.wx.student.UserController",
+    "classURL": "/api/wx/student/user",
+    "methodName": "read",
+    "methodURL": "/api/wx/student/user/message/read/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/wx/student/user/message/read/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.wx.student.UserController",
+    "classURL": "/api/wx/student/user",
+    "methodName": "current",
+    "methodURL": "/api/wx/student/user/current",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/wx/student/user/current"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.wx.student.UserController",
+    "classURL": "/api/wx/student/user",
+    "methodName": "messagePageList",
+    "methodURL": "/api/wx/student/user/message/page",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/wx/student/user/message/page"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.wx.student.UserController",
+    "classURL": "/api/wx/student/user",
+    "methodName": "unReadCount",
+    "methodURL": "/api/wx/student/user/message/unreadCount",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/wx/student/user/message/unreadCount"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "com.starp.exam.controller.wx.student.UserController",
+    "classURL": "/api/wx/student/user",
+    "methodName": "messageDetail",
+    "methodURL": "/api/wx/student/user/message/detail/{id}",
+    "requestType": "POST",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/api/wx/student/user/message/detail/{id}"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": ["POST"],
+            "empty": false
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "springfox.documentation.swagger.web.ApiResourceController",
+    "classURL": "/swagger-resources",
+    "methodName": "swaggerResources",
+    "methodURL": "/swagger-resources",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/swagger-resources"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": [],
+            "empty": true
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "springfox.documentation.swagger.web.ApiResourceController",
+    "classURL": "/swagger-resources",
+    "methodName": "uiConfiguration",
+    "methodURL": "/swagger-resources/configuration/ui",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/swagger-resources/configuration/ui"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": [],
+            "empty": true
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}, {
+    "className": "springfox.documentation.swagger.web.ApiResourceController",
+    "classURL": "/swagger-resources",
+    "methodName": "securityConfiguration",
+    "methodURL": "/swagger-resources/configuration/security",
+    "requestMappingInfo": {
+        "name": null,
+        "patternsCondition": {
+            "patterns": ["/swagger-resources/configuration/security"],
+            "empty": false
+        },
+        "methodsCondition": {
+            "methods": [],
+            "empty": true
+        },
+        "paramsCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "headersCondition": {
+            "expressions": [],
+            "empty": true
+        },
+        "consumesCondition": {
+            "expressions": [],
+            "empty": true,
+            "consumableMediaTypes": []
+        },
+        "producesCondition": {
+            "expressions": [],
+            "empty": true,
+            "producibleMediaTypes": []
+        },
+        "customCondition": null
+    }
+}]

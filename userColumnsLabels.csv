@@ -1,0 +1,2 @@
+﻿age,birthDay,createTime,是否删除,id,头像地址,lastActiveTime,modifyTime,password,phone,真实姓名,1.学生 2.老师 3.管理员,1.男 2女,1.启用 2禁用,tenantId,学生年级(1-12),用户名,userUuid,微信openId
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1

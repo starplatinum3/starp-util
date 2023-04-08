@@ -1,0 +1,4 @@
+2023-02-22 15:19:52,393 - d:\proj\python\my_util_py_pub\make_nginx_conf_file.py[line:166] - INFO: config write here ./nginx_8089.conf
+2023-02-22 15:19:52,393 - d:\proj\python\my_util_py_pub\make_nginx_conf_file.py[line:167] - INFO: nginx_root_dir .
+2023-02-22 15:19:52,394 - d:\proj\python\my_util_py_pub\make_nginx_conf_file.py[line:168] - INFO: port 8089
+2023-02-22 15:19:52,394 - d:\proj\python\my_util_py_pub\make_nginx_conf_file.py[line:170] - INFO: start at starplatinumora.top:8089
