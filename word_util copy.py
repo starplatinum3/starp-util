@@ -42,8 +42,6 @@ def run_add_fldChar(run,cmd_str):
     fldChar.set(docx.oxml.ns.qn('w:fldCharType'), 'end')
     run._r.append(fldChar)
 
-from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
-
 #  table: docx.table.Table,
 def add_caption(doc, caption: str,target = 'Table'):
     """
@@ -53,34 +51,32 @@ def add_caption(doc, caption: str,target = 'Table'):
     # doc
     # caption type
     paragraph = doc.add_paragraph(f'{target} ', style='Caption')
-    paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
-    # AttributeError: 'EnumValue' object has no attribute 'add_run'
+
     # numbering field
     run = paragraph.add_run()
     run_add_fldChar(run,cmd_str=fr' STYLEREF 1\s ')
-    run.add_text('.')
-    run_add_fldChar(run,cmd_str=fr' SEQ {target} \* ARABIC \s 1')
-    # fldChar = docx.oxml.OxmlElement('w:fldChar')
-    # fldChar.set(docx.oxml.ns.qn('w:fldCharType'), 'begin')
-    # run._r.append(fldChar)
 
-    # instrText_STYLEREF = docx.oxml.OxmlElement('w:instrText')
-    # # instrText.text = f' SEQ {target} \\* ARABIC'
-    # instrText_STYLEREF.text = fr' STYLEREF 1\s '
-    # # 表 0.2
-    # run._r.append(instrText_STYLEREF)
+    fldChar = docx.oxml.OxmlElement('w:fldChar')
+    fldChar.set(docx.oxml.ns.qn('w:fldCharType'), 'begin')
+    run._r.append(fldChar)
+
+    instrText_STYLEREF = docx.oxml.OxmlElement('w:instrText')
+    # instrText.text = f' SEQ {target} \\* ARABIC'
+    instrText_STYLEREF.text = fr' STYLEREF 1\s '
+    # 表 0.2
+    run._r.append(instrText_STYLEREF)
     # run._r.append('.')
     # run.
 
-    # instrTextSeq = docx.oxml.OxmlElement('w:instrText')
-    # # instrText.text = f' SEQ {target} \\* ARABIC'
-    # instrTextSeq.text = fr' SEQ {target} \* ARABIC \s 1'
-    # # 表 0.2
-    # run._r.append(instrTextSeq)
+    instrTextSeq = docx.oxml.OxmlElement('w:instrText')
+    # instrText.text = f' SEQ {target} \\* ARABIC'
+    instrTextSeq.text = fr' SEQ {target} \* ARABIC \s 1'
+    # 表 0.2
+    run._r.append(instrTextSeq)
 
-    # fldChar = docx.oxml.OxmlElement('w:fldChar')
-    # fldChar.set(docx.oxml.ns.qn('w:fldCharType'), 'end')
-    # run._r.append(fldChar)
+    fldChar = docx.oxml.OxmlElement('w:fldChar')
+    fldChar.set(docx.oxml.ns.qn('w:fldCharType'), 'end')
+    run._r.append(fldChar)
 
     # caption text
     paragraph.add_run(f' {caption}')

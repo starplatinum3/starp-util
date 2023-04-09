@@ -1192,7 +1192,7 @@ from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 # 添加一个段落用于存放表格题注
 # caption_para = document.add_paragraph()
 
-
+import word_util
 def mysql_table_meta_to_csv(do_write=True):
     """
     to doc
@@ -1281,6 +1281,9 @@ def mysql_table_meta_to_csv(do_write=True):
         table_info=f"{table_comment}表包括主要{row_cnt}个字段，主要定义如表3.{table_number}所示。"
         doc.add_paragraph("")
         paragraph1 = doc.add_paragraph(table_info)
+        # add_caption(doc, caption: str,target = 'Table'):
+        word_util.add_caption(doc,f'{table_comment}表说明',target='表')
+        # word_util.set_paragraph_format(paragraph1,alignment=WD_ALIGN_PARAGRAPH.CENTER)
         pandas_util.docx_add_df_table(df_table,doc,need_columns=['字段', '类型', '是否为空', '备注'])
         # 表加上 题注 python doc 
         document=doc
@@ -1290,8 +1293,8 @@ def mysql_table_meta_to_csv(do_write=True):
         caption_para.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
 
         # 添加一个 run 用于存放题注内容
-        caption_run = caption_para.add_run()
-        caption_run.text = f"表3.{table_number}"
+        # caption_run = caption_para.add_run()
+        # caption_run.text = f"表3.{table_number}"
         
         # 将该 run 的样式设置为题注样式（需要自行定义样式或者使用默认样式）
         # caption_run.style = document.styles["Caption"]
@@ -1344,7 +1347,7 @@ def mysql_table_meta_to_csv(do_write=True):
     print(out_doc_file)
     
     # './test_tables_db.docx')
-    do_write=False
+    # do_write=False
     if do_write:
         doc.save(out_doc_file)
         os.system(f"start {out_doc_file}")
@@ -1772,5 +1775,5 @@ if __name__ =="__main__":
             }
     # get_cols_comments_of_json(json_obj)
     # to_lunWenDesp()
-    mysql_table_meta_to_csv()
+    mysql_table_meta_to_csv(do_write=True)
     # 'TABLE_NAME'
